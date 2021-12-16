@@ -32,3 +32,6 @@ la fonction badTest. Lancez les tests.
 *Que remarquez-vous ?***
 
 - Le test ne passe pas. "Expected :true | Actual :false"
+- Le push a bien été réalisé, mais au niveau du repo git, on
+constate que le projet ne compile plus.
+  

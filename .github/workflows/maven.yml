@@ -18,3 +18,5 @@ jobs: # list des jobs à effectuer
           check-latest: true
       - name: Compiler le projet # On donne un nom au job
         run: mvn -B package --file pom.xml  # On lance la commande maven qui lance le build du code
+      - name: Build the tests # On donne un nom au job
+        run: mvn test # On lance la commande maven qui lance la vérification des test
