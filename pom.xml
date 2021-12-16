@@ -43,8 +43,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <encoding>UTF-8</encoding>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>11.0.13</source>
+                    <target>11.0.13</target>
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
             </plugin>
