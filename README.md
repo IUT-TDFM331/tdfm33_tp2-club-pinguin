@@ -8,7 +8,8 @@ trier un tableau ayant un grand nombre de valeurs.
 ___________________
 #Partie 3
 **A.2) Ouvrez le fichier SortAlgorithms et copiez le code
-suivant à la ligne 20 (après le dernier accolade). Relancer les tests à nouveau.  
+suivant à la ligne 20 (après le dernier accolade). Relancer 
+les tests à nouveau.  
 *Qu'avez-vous remarqué ?***
 
 - L'erreur "java: class, interface, or enum expected" apparaît.
@@ -23,5 +24,11 @@ chez eux.
 **A.6) Allez sur votre repo Github.
 *Que remarquez-vous ?***
 
-- En tête du repository Git, un message est affiché : il indique que le code
-ne compile plus.
+- En tête du repository Git, un message est affiché : il indique 
+  que le code ne compile plus.
+  
+**A.9) Ouvrez le fichier SortAlgorithmsTest et décommentez 
+la fonction badTest. Lancez les tests.  
+*Que remarquez-vous ?***
+
+- Le test ne passe pas. "Expected :true | Actual :false"
