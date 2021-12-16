@@ -14,7 +14,5 @@ jobs: # list des jobs à effectuer
         uses: actions/setup-java@v2 # On configure Java
         with:
           java-version: 11
-          distribution: 'adopt'
-          cache: maven
       - name: Compiler le projet # On donne un nom au job
         run: mvn -B package --file pom.xml  # On lance la commande maven qui lance le build du code
